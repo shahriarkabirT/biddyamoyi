@@ -5,9 +5,14 @@ import Header from './Header';
 import './styles/main.css';
 
 function App() {
+  const appStyle = {
+    backgroundImage: "url('bangaldesh.png')",
+    backgroundRepeat: "repeat", 
+  };
+
   return (
-    <div>
-      <Header/>
+    <div style={appStyle}>
+      <Header />
       <Navbar />
       <Footer />
     </div>

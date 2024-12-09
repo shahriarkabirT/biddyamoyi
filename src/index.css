@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-image: url('../public/bang.jpg');
+    background-size: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 
 code {
