@@ -1,0 +1,44 @@
+#rightSidebar {
+    float: right; /* Aligns the entire sidebar to the right */
+    width: 220px; /* Set a width if needed */
+    margin: 20px 20px 10px 10px;
+}
+
+#rightSidebar .boxHeader {
+    background-color: rgb(6, 163, 255);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#box ul li {
+    margin: 5px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+#box ul li:before {
+    content: '>';
+    position: absolute;
+    left: 0;
+    color: #ff0000;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.highlight {
+    color: red;
+    font-weight: bold;
+}
