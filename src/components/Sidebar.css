@@ -1,7 +1,10 @@
+
+
 #rightSidebar {
     float: right; /* Aligns the entire sidebar to the right */
     width: 220px; /* Set a width if needed */
     margin: 20px 20px 10px 10px;
+   
 }
 
 #rightSidebar .boxHeader {
